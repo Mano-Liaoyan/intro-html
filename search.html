@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Result</title>
+    <link rel="stylesheet" href="Icons/icon1-v1.0/style.css">
+    <link rel="stylesheet" href="Icons/Logo/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/blockbox.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="row">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="image/Gialen_logo.png" width="80" height="100%" class="d-inline-block" alt="" style="padding-top: 5px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Login / Register <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            Users
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Love makes people beautiful</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="input-group hidden-xs-down mr-auto ml-auto" style="margin-top: 10px; width: 60%">
+    <input type="text" class="form-control rounded-left-2" placeholder="Search for products...">
+    <span class="input-group-btn">
+        <button class="btn btn-secondary pd-x-15 rounded-right-2" type="button" style="padding-bottom: 7px">
+            <span class="icon-search9"></span>
+        </button>
+    </span>
+</div>
+<div class="container pd-b-60 tx-size-sm" style="margin-top: 20px;">
+    <div class="row row-lg">
+        <div class="col-lg-9">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <div class="mg-t-10 mg-md-t-0">
+                    <span class="tx-size-xs mg-r-20 d-block d-md-inline mg-b-20 mg-md-b-0">Showing 1-6 of 200 items found.</span>
+                    <select class="form-control select2 select2-xs" data-placeholder="Sort by">
+                        <option value="1">Top Seller</option>
+                        <option value="2">Trending</option>
+                        <option value="3">Most Popular</option>
+                        <option value="4">Date Added</option>
+                        <option value="5">Brand</option>
+                    </select>
+                </div>
+            </div>
+            <!-- d-flex -->
+            <div class="card-deck card-deck-sm mg-t-40" style="margin-top: 20px;">
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <!-- overlay -->
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+            </div>
+            <!-- card-deck -->
+            <div class="card-deck card-deck-sm mg-t-10">
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+                <div class="card rounded-0 pd-x-5">
+                    <figure class="shop-item">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid" alt="">
+                        <figcaption class="overlay-block d-flex justify-content-center align-items-center">
+                            <div class="shop-item-button">
+                                <a href="" class="btn btn-primary bd-0">
+                                    <i class="fa fa-shopping-cart mg-r-0"></i>
+                                </a>
+                                <a href="" class="btn btn-inverse bd-0">
+                                    <i class="fa fa-heart mg-r-0"></i>
+                                </a>
+                            </div>
+                        </figcaption>
+                        <!-- overlay-block -->
+                    </figure>
+                    <div class="card-body pd-15 tx-center">
+                        <h6 class="tx-size-xs mg-b-5">
+                            <a href="" class="tx-inverse">AAA</a>
+                        </h6>
+                        <p class="tx-size-12 tx-danger mg-b-5">$99.99</p>
+                        <p class="tx-yellow mg-b-0">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+            </div>
+            <!-- card-deck -->
+            <nav aria-label="Page navigation" class="mg-t-80 mg-b-40 d-flex justify-content-center">
+                <ul class="pagination pagination-rounded pagination-inverse mg-b-0">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">5</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">6</a>
+                    </li>
+                    <!-- <li class="page-item disabled">
+                         <span class="page-link">...</span>
+                     </li>-->
+                    <li class="page-item">
+                        <a class="page-link" href="#">7</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- col-9 -->
+        <div class="col-lg-3 mg-t-40 mg-lg-t-0" style="padding-left: 40px;">
+            <div class="card bg-transparent bd-0 mg-t-25" style="margin-top: 48px;">
+                <div class="card-header bg-transparent pd-x-0 bd-color-gray-lighter">
+                    <span class="tx-uppercase tx-bold tx-size-14 tx-inverse">Shop By Categories</span>
+                </div>
+                <!-- card-header -->
+                <ul class="list-unstyled link-list lh-10 tx-size-14 mg-t-10">
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Facial Skin Care
+                        </a>
+                    </li>
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Cosmetics & Perfume
+                        </a>
+                    </li>
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Oral Beauty
+                        </a>
+                    </li>
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Nursing at Home
+                        </a>
+                    </li>
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Beauty Equipment
+                        </a>
+                    </li>
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Maternal-Child Nursing
+                        </a>
+                    </li>
+                    <li class="tx-medium">
+                        <a href="">
+                            <i class="fa fa-angle-right mg-r-5"></i>
+                            Life Delicacy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- card -->
+            <div class="card bd-0 bg-transparent mg-t-20">
+                <div class="card-header pd-x-0 bg-transparent bd-color-gray-lighter">
+                    <span class="tx-size-14 tx-bold tx-uppercase tx-inverse">Top Rated Products</span>
+                </div>
+                <!-- card-header -->
+                <div class="media-list mg-t-10">
+                    <div class="media pd-y-10">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid wd-48 mg-r-15" alt="Images">
+                        <div class="media-body tx-size-xs">
+                            <a href="" class="tx-inverse tx-medium">AAA</a>
+                            <p class="tx-yellow mg-b-5 d-block">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="tx-gray-light tx-size-11 mg-l-5">233 reviews</span>
+                            </p>
+                            <p>$34.99</p>
+                        </div>
+                        <!-- media-body -->
+                    </div>
+                    <!-- media -->
+                    <div class="media pd-y-10">
+                        <img src="http://via.placeholder.com/1276x1920" class="img-fluid wd-48 mg-r-15" alt="Images">
+                        <div class="media-body tx-size-xs">
+                            <a href="" class="tx-inverse tx-medium">AAA</a>
+                            <p class="tx-yellow mg-b-5 d-block">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="tx-gray-light tx-size-11 mg-l-5">233 reviews</span>
+                            </p>
+                            <p>$34.99</p>
+                        </div>
+                        <!-- media-body -->
+                    </div>
+                    <!-- media -->
+                </div>
+                <!-- media-list -->
+            </div>
+            <!-- card -->
+        </div>
+        <!-- col-3 -->
+    </div>
+    <!-- row -->
+
+</div>
+<div class="container-wrapper bg-superlight" style="margin-top: 80px;padding-bottom: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <a href="#" class="">
+                    <i class="fa fa-cube"></i> Gialen <span class="tx-normal tx-teal">shop</span>
+                </a>
+                <p class="tx-size-xs mg-t-10 mg-b-20">Just the good ol' boys, never meanin' no harm. Beats all you've ever saw, been in trouble with the
+                    law
+                    since the day they was born.</p>
+            </div><!-- col-3 -->
+            <div class="col-lg-6 mg-t-40 mg-lg-t-0">
+                <div class="row">
+                    <div class="col-sm">
+                        <h6 class="tx-gray-dark tx-semibold tx-uppercase mg-b-20 tx-uppercase tx-size-sm">About</h6>
+                        <ul class="list-unstyled lh-10 tx-size-13">
+                            <li><a href="" class="tx-gray">Our Team</a></li>
+                            <li><a href="" class="tx-gray">Testimonials</a></li>
+                            <li><a href="" class="tx-gray">Terms of Use</a></li>
+                            <li><a href="" class="tx-gray">Privacy Policy</a></li>
+                            <li><a href="" class="tx-gray">Contact</a></li>
+                        </ul>
+                    </div><!-- col -->
+                    <div class="col-sm">
+                        <h6 class="tx-gray-dark tx-semibold tx-uppercase mg-b-20 tx-uppercase tx-size-sm">Our Products</h6>
+                        <ul class="list-unstyled lh-10 tx-size-13">
+                            <li><a href="" class="tx-gray">Banana</a></li>
+                            <li><a href="" class="tx-gray">Guyabano</a></li>
+                            <li><a href="" class="tx-gray">Mansanitas</a></li>
+                            <li><a href="" class="tx-gray">Dalandan</a></li>
+                            <li><a href="" class="tx-gray">Macapuno</a></li>
+                        </ul>
+                    </div><!-- col -->
+                    <div class="col-sm">
+                        <h6 class="tx-gray-dark tx-semibold tx-uppercase mg-b-20 tx-uppercase tx-size-sm">Information</h6>
+                        <ul class="list-unstyled lh-10 tx-size-13">
+                            <li><a href="" class="tx-gray">Press</a></li>
+                            <li><a href="" class="tx-gray">Events</a></li>
+                            <li><a href="" class="tx-gray">Careers</a></li>
+                            <li><a href="" class="tx-gray">Blog</a></li>
+                        </ul>
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- col-6 -->
+            <div class="col-sm-8 col-lg-3 mg-t-40 mg-lg-t-0">
+                <h6 class="tx-gray-dark tx-semibold tx-uppercase mg-b-20 tx-uppercase tx-size-sm">Subscribe to Us</h6>
+                <p class="tx-size-xs mg-b-20">Get the latest products and updates on our store. </p>
+                <p class="mg-b-0">
+                    <a href="#" class="btn btn-icon-sm rounded-circle"><img src="Icons/Logo/SVG/wechat1.svg" width="30" height="30" alt="WeChat"/></a>
+                    <a href="#" class="btn btn-icon-sm rounded-circle"><img src="Icons/Logo/SVG/sinaweibo.svg" width="30" height="30" alt="WeiBo"/></a>
+                    <a href="#" class="btn btn-icon-sm rounded-circle"><img src="Icons/Logo/SVG/facebook8.svg" width="30" height="30" alt="FaceBook"/></a>
+                </p>
+            </div><!-- col-3 -->
+        </div><!-- row -->
+    </div><!-- container -->
+    <div class="container-wrapper bg-gray-lighter pd-y-15 text-center">
+        <span class="tx-size-12">&copy; 2020. Gialen.  Inc. All Rights Reserved.</span>
+    </div><!-- container-wrapper -->
+</div>
+<!-- container -->
+
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="lib/popper.js/popper.js"></script>
+<script src="js/blockbox.js"></script>
+<script src="lib/select2/js/select2.min.js"></script>
+</body>
+</html>
